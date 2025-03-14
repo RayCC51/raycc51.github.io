@@ -1,0 +1,9 @@
+<footer>
+  <p>
+    {{ with .Site.Params.copyright }} © {{ dateFormat "2006" now }} {{ . |
+    safeHTML }}{{ end }}. Built with
+    <a href="https://gohugo.io" target="_blank">Hugo</a> &
+    <a href="https://github.com/mnjm/kayal" target="_blank">Kayal</a> &
+    <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  </p>
+</footer>

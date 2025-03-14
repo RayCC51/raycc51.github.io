@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="74"
+       y="125"
+       width="352"
+       height="140"
+       id="rect17" />
+  </defs>
+  <g
+     id="layer2"
+     transform="matrix(1.28,0,0,1.28,-71.68,-71.68)">
+    <g
+       id="g28">
+      <rect
+         style="fill:#bf4040;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect19"
+         width="40"
+         height="80"
+         x="56"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#d99d26;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect20"
+         width="40"
+         height="80"
+         x="96"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#f2e70d;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect21"
+         width="40"
+         height="80"
+         x="136"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#d9d926;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect22"
+         width="40"
+         height="80"
+         x="176"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#40bf40;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect23"
+         width="40"
+         height="80"
+         x="216"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#40bf95;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect24"
+         width="40"
+         height="80"
+         x="256"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#26d9d9;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect25"
+         width="40"
+         height="80"
+         x="296"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#4040bf;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect26"
+         width="40"
+         height="80"
+         x="336"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#9540bf;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect27"
+         width="40"
+         height="80"
+         x="376"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+      <rect
+         style="fill:#bf4095;fill-opacity:1;stroke:none;stroke-width:3.16228;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect28"
+         width="40"
+         height="80"
+         x="416"
+         y="-296"
+         transform="scale(1,-1)"
+         ry="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       id="text17"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect17);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       transform="matrix(1.1337467,0,0,1.6875412,11.739588,-64.075183)"><tspan
+         x="74"
+         y="232.58947"
+         id="tspan2">RCC</tspan></text>
+  </g>
+</svg>

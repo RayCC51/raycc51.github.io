@@ -1,0 +1,64 @@
+:root {
+  --black: #2f2c2c;
+  --white: #ffffff;
+  --grey: #8f8d8d;
+  --lightgrey: #cfcfce;
+  --darkgrey: #5f5c5c;
+
+  --main: #bf4040;
+  --main-dark: #862d2d;
+  --main-light: #d27979;
+  --main-alpha: #bf4040b3;
+  --main-light-alpha: #d2797930;
+  --point: #41bf65;
+  --point-dark: #2d864a;
+  --code-background: rgb(251, 243, 251);
+  --code-background-dark: #272822;
+
+  --radius: 6px;
+  --color: var(--black);
+  --background-color: var(--white);
+  --background-color-dark: var(--grey);
+  --theme: var(--main);
+  --theme-alpha: var(--main-alpha);
+  --theme-light: var(--main-light);
+  --theme-light-alpha: var(--main-light-alpha);
+  --link-color: var(--point-dark);
+  --code-bg: var(--code-background);
+
+  --floating: var(--white);
+
+  --blockquote-info: rgb(100, 130, 180);
+  --blockquote-tip: rgb(120, 170, 160);
+  --blockquote-warning: rgb(200, 150, 50);
+  --blockquote-danger: rgb(180, 100, 100);
+
+  --blockquote-info-bg: rgba(216, 232, 255, 0.7);
+  --blockquote-tip-bg: rgba(226, 245, 236, 0.7);
+  --blockquote-warning-bg: rgba(255, 248, 216, 0.7);
+  --blockquote-danger-bg: rgba(255, 224, 224, 0.7);
+
+  --code-keyword: darkcyan;
+  --code-string: chocolate;
+  --code-function: darkorange;
+  --code-number: darkorchid;
+  --code-operator: crimson;
+}
+
+.dark {
+  --color: var(--lightgrey);
+  --background-color: var(--black);
+  --background-color-dark: var(--darkgrey);
+  --theme: var(--main-light);
+  --theme-light: var(--main);
+  --link-color: var(--point);
+  --code-bg: var(--code-background-dark);
+
+  --floating: var(--lightgrey);
+
+  --code-keyword: #66d9ef;
+  --code-string: #e6db74;
+  --code-function: #a6e22e;
+  --code-number: #ae81ff;
+  --code-operator: #f92672;
+}

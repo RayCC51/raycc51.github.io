@@ -1,0 +1,15 @@
+{{ with .page }}
+<li>
+    <div>
+    {{ with .Params.externalUrl }}
+        <a href="{{ . }}" target="_blank" rel="external">
+    {{ else }}
+        <a href="{{ .RelPermalink }}">
+    {{ end }}
+    {{ .LinkTitle | emojify }} </a> </div>
+
+    {{ $dateMachine := .Date | time.Format "2006-01-02" }}
+    {{ $dateHuman := dateFormat "2006-01-02" .Date }}
+    <time datetime="{{ $dateMachine }}"> {{ $dateHuman }} </time>
+</li>
+{{ end }}
