@@ -139,9 +139,8 @@ nav {
 }
 
 footer {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
   border-top: 1px solid var(--background-color-dark);
   margin-top: 1rem;
   padding-top: 1rem;
