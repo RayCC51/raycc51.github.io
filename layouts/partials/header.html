@@ -12,7 +12,7 @@
   <div id="main-menu" class="mm-normal">
     <ul>
     {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL }}" aria-label="{{ .Name }}">
+      <li><a href="{{ .URL }}" aria-label="{{ .Name }}" class="{{ if eq .URL $.Page.RelPermalink }}active{{ end }}">
       {{ if .Pre }}
         <span>
           {{ partial "icon.html" .Pre }}

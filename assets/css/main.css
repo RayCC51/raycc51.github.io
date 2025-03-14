@@ -357,6 +357,11 @@ nav#TableOfContents {
   text-decoration: none;
 }
 
+#main-menu a.active {
+  /* color: var(--theme); */
+  border-bottom: 2px solid var(--theme);
+}
+
 #main-menu a:hover {
   color: var(--theme);
   border-bottom: 2px solid var(--theme);
