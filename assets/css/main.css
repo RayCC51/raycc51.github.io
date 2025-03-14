@@ -518,6 +518,18 @@ ul.lst-card {
   list-style-type: none;
 }
 
+/* Thumbnail */
+.lst-card > li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lst-card .thumbnail {
+  width: auto;
+  height: 100px;
+  margin: 0;
+}
+
 /* Meta */
 .meta {
   margin: 0.5em;

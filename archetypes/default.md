@@ -10,4 +10,5 @@ showReadingTime = true
 showToC = true
 showComments = false
 # url = ""
+# thumbnail = 
 +++

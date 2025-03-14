@@ -6,4 +6,5 @@ date = "{{ .Date }}"
 tags = ["tag"]
 showToC = true
 showComments = true
+# thumbnail = 
 +++

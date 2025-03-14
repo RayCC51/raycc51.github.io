@@ -5,4 +5,5 @@ date = "{{ .Date }}"
 tags = ["tag"]
 # url = ""
 showComments = false
+# thumbnail = 
 +++
