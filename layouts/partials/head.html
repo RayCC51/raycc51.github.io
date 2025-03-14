@@ -63,4 +63,16 @@
   printf `
   <link rel="%q" type="%q" href="%q" title="%q" />
   ` .Rel .MediaType.Type .Permalink site.Title | safeHTML }} {{ end }}
+
+  <!-- Darkmode -->
+  <script>
+    if (
+      sessionStorage.getItem("t") === "d" ||
+      (sessionStorage.getItem("t") !== "l" &&
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.documentElement.classList.add("dark");
+    }
+  </script>
 </head>

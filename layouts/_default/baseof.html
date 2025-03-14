@@ -5,21 +5,6 @@
 >
   {{ partial "head.html" . }}
   <body>
-    <script>
-      let savedTheme = sessionStorage.getItem("t") || "auto";
-      if (savedTheme == "auto") {
-        if (
-          window.matchMedia &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches
-        ) {
-          savedTheme = "dark";
-        }
-      }
-      if (savedTheme === "dark" || savedTheme === "d") {
-        document.body.classList.add("dark");
-        sessionStorage.setItem("t", "d");
-      }
-    </script>
     <nav class="content">
       {{ partial "header.html" . }}
       <div class="progress-container">

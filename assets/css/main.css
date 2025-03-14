@@ -375,11 +375,11 @@ nav#TableOfContents {
 }
 
 /* Icon button */
-body.dark #moon {
+html.dark #moon {
   display: none;
 }
 
-body:not(.dark) #sun {
+html:not(.dark) #sun {
   display: none;
 }
 

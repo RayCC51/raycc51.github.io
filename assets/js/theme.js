@@ -1,10 +1,10 @@
 function toggleTheme() {
-  if (document.body.className.includes("dark")) {
-    document.body.classList.remove("dark");
+  if (document.documentElement.className.includes("dark")) {
+    document.documentElement.classList.remove("dark");
     sessionStorage.setItem("t", "l");
     changeGiscusTheme("l");
   } else {
-    document.body.classList.add("dark");
+    document.documentElement.classList.add("dark");
     sessionStorage.setItem("t", "d");
     changeGiscusTheme("d");
   }
