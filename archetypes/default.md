@@ -1,14 +1,15 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description = ""
 summary = ""
 date = "{{ .Date }}"
-# lastmod = 
+# lastmod = 2025-03-11
 tags = ["tag"]
+# thumbnail = 
+# externalUrl = "https://www.example.com" # Redirect
 draft = false
 showDate = true
 showReadingTime = true
 showToC = true
 showComments = false
-# url = ""
-# thumbnail = 
 +++
