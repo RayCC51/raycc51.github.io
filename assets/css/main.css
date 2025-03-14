@@ -530,6 +530,11 @@ ul.lst-card {
   margin: 0;
 }
 
+nav.content + div.content > main > img:first-child {
+  height: 200px !important;
+  width: auto;
+}
+
 /* Meta */
 .meta {
   margin: 0.5em;
