@@ -18,36 +18,6 @@
     <button id="scrollToTopBtn" title="Go to top">
       {{ partial "icon.html" "chevron-up" }}
     </button>
-    <script>
-      // To top floating button
-      const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-      const myBar = document.getElementById("myBar");
-      document.addEventListener("DOMContentLoaded", function () {
-        window.onscroll = function () {
-          if (
-            document.body.scrollTop > 20 ||
-            document.documentElement.scrollTop > 20
-          ) {
-            scrollToTopBtn.style.display = "block";
-          } else {
-            scrollToTopBtn.style.display = "none";
-          }
-          scrollIndicator();
-        };
-        scrollToTopBtn.onclick = function () {
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        };
-      });
-      // Scroll Indicator
-      function scrollIndicator() {
-        let winScroll =
-          document.body.scrollTop || document.documentElement.scrollTop;
-        let height =
-          document.documentElement.scrollHeight -
-          document.documentElement.clientHeight;
-        let scrolled = (winScroll / height) * 100;
-        myBar.style.width = scrolled + "%";
-      }
-    </script>
+    {{ partialCached "head/js.html" . }}
   </body>
 </html>

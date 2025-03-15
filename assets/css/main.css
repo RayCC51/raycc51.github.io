@@ -638,7 +638,7 @@ pre:hover .copy-button {
   right: 1em;
   z-index: 3;
   cursor: pointer;
-  background-color: transparent;
+  background: none;
   color: var(--theme);
   border: none;
 }
@@ -646,6 +646,10 @@ pre:hover .copy-button {
 .copy-textarea {
   z-index: -10;
   opacity: 0;
+}
+
+.code-container {
+  position: relative;
 }
 
 /* Show more button in recent posts */
