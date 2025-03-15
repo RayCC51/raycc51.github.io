@@ -30,7 +30,7 @@ function buildIndex() {
     var options = {
       shouldSort: true,
       ignoreLocation: true,
-      threshold: 0.0,
+      threshold: 0.3,
       includeMatches: true,
       keys: [
         { name: "title", weight: 0.8 },
@@ -67,7 +67,7 @@ function closeSearch() {
 function executeQuery(query) {
   let results = fuse.search(query);
   let resultsHtml = "";
-  if (results.length > 1) {
+  if (results.length >= 1) {
     results.forEach(function (value, key) {
       var meta = value.item.section + " | ";
       meta = meta + value.item.date ? value.item.date + " | " : "";
