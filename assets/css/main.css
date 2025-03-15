@@ -623,13 +623,8 @@ span[style="color:#f92672"] {
 }
 
 /* Code Copy button */
-pre,
-.highlight {
+.code-container {
   position: relative;
-}
-div.highlight:hover .copy-button,
-pre:hover .copy-button {
-  display: block;
 }
 
 .copy-button {
@@ -648,8 +643,9 @@ pre:hover .copy-button {
   opacity: 0;
 }
 
-.code-container {
-  position: relative;
+.copy-button svg {
+  width: 1.3em;
+  height: 1.3em;
 }
 
 /* Show more button in recent posts */
