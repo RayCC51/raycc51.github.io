@@ -524,16 +524,34 @@ ul.lst-card {
 .lst-card > li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .lst-card .thumbnail {
   width: auto;
-  height: 100px;
+  height: 130px;
   margin: 0;
 }
 
+@media (max-width: 600px) {
+  .lst-card > li {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .lst-card li div{
+    order: 2;
+    align-self: flex-start;
+  }
+
+  .lst-card li img{
+    order: 1;
+    height: 150px !important;
+  }
+}
+
 nav.content + div.content > main > img:first-child {
-  height: 200px !important;
+  max-height: 300px !important;
   width: auto;
 }
 
