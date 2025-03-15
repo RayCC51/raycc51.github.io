@@ -63,6 +63,8 @@ document.querySelectorAll(".copy-button").forEach((item) =>
 
 //
 // Theme
+// key: "t" : theme
+// value: "l" or "d" : light or dark
 //
 function toggleTheme() {
   if (document.documentElement.className.includes("dark")) {
@@ -76,9 +78,6 @@ function toggleTheme() {
   }
 }
 
-// Theme
-// key: "t" : theme
-// value: "l" or "d" : light or dark
 window.addEventListener("DOMContentLoaded", (event) => {
   const switcher = document.getElementById("theme-switcher");
   if (switcher) {

@@ -64,20 +64,6 @@ function closeSearch() {
   }
 }
 
-// Click outside of searchbox will close Search
-// searchDiv.onclick = function (event) {
-//   if (isSearchOpen) {
-//     if (
-//       event.target !== panel &&
-//       event.target !== searchResults &&
-//       !panel.contains(event.target) &&
-//       !searchResults.contains(event.target)
-//     ) {
-//       closeSearch();
-//     }
-//   }
-// };
-
 function executeQuery(query) {
   let results = fuse.search(query);
   let resultsHtml = "";
@@ -161,4 +147,9 @@ document.addEventListener("keydown", function (event) {
       event.preventDefault();
     }
   }
+});
+
+// Click outside of search area -> close
+document.getElementById("search-overlay").addEventListener("click", () => {
+  closeSearch();
 });
