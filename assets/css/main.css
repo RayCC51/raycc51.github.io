@@ -26,8 +26,6 @@
   --link-color: var(--point-dark);
   --code-bg: var(--code-background);
 
-  --floating: var(--white);
-
   --blockquote-info: rgb(100, 130, 180);
   --blockquote-tip: rgb(120, 170, 160);
   --blockquote-warning: rgb(200, 150, 50);
@@ -44,7 +42,10 @@
   --code-number: darkorchid;
   --code-operator: crimson;
 
+  --floating: var(--white);
   --shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.2);
+  --blur-color: rgba(0, 0, 0, 0.3);
+  --blur: blur(10px);
 }
 
 .dark {
@@ -56,13 +57,14 @@
   --link-color: var(--point);
   --code-bg: var(--code-background-dark);
 
-  --floating: var(--lightgrey);
-
   --code-keyword: #66d9ef;
   --code-string: #e6db74;
   --code-function: #a6e22e;
   --code-number: #ae81ff;
   --code-operator: #f92672;
+
+  --floating: var(--lightgrey);
+  --blur-color: rgba(0, 0, 0, 0.5);
 }
 
 /* To Top Floating button */
@@ -883,9 +885,9 @@ h6:hover .anchor {
   bottom: 0;
   overflow: hidden;
   z-index: 30;
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: var(--blur-color);
+  backdrop-filter: var(--blur);
+  -webkit-backdrop-filter: var(--blur);
   display: none;
 }
 
