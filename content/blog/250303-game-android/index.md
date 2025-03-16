@@ -1,7 +1,7 @@
 +++
 title = '7 Free ways to create Games using only Android'
-description = ""
-summary = ""
+description = "Create game using only android."
+summary = "No code, JS, Lua, Linux"
 date = 2025-03-03
 # lastmod = 2025-03-11
 tags = ["android", "game", "memo"]
