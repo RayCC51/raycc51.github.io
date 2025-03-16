@@ -17,7 +17,11 @@
 
     <!-- Thumbnail -->
     {{ if .Params.coverImg }} 
-        <img src="{{ .RelPermalink }}{{ .Params.coverImg }}" alt="{{ .LinkTitle }}" class="thumbnail" />
+    {{ if (hasPrefix .Params.coverImg "http") }}
+    <img src="{{ .Params.coverImg }}" alt="{{ .LinkTitle }}" class="thumbnail" />
+{{ else }}
+    <img src="{{ .RelPermalink }}{{ .Params.coverImg | relURL }}" alt="{{ .LinkTitle }}" class="thumbnail" />
+{{ end }}
     {{ end }}
 </li>
 {{ end }}
