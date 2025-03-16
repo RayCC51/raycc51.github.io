@@ -14,6 +14,7 @@
   --point-dark: #2d864a;
   --code-background: rgb(251, 243, 251);
   --code-background-dark: #272822;
+  --code-highlight: #e8e8ff;
 
   --radius: 6px;
   --color: var(--black);
@@ -56,6 +57,7 @@
   --theme-light: var(--main);
   --link-color: var(--point);
   --code-bg: var(--code-background-dark);
+  --code-highlight: #334;
 
   --code-keyword: #66d9ef;
   --code-string: #e6db74;
@@ -614,7 +616,7 @@ td > pre {
 }
 
 code[data-lang] * {
-  background-color: transparent !important;
+  background: none !important;
 }
 
 /* Code highlight - Reserved keyword */
@@ -642,9 +644,21 @@ span[style="color:#f92672"] {
   color: var(--code-operator) !important;
 }
 
+/* Code with line highlight */
+span[style="background-color:#3c3d38"]{
+  background: none !important;
+}
+span[style="display:flex; background-color:#3c3d38"]{
+  background-color: var(--code-highlight) !important;
+}
+
 /* Code Copy button */
 .code-container {
   position: relative;
+}
+
+.code-container:hover .copy-button{
+  display: block;
 }
 
 .copy-button {
@@ -656,6 +670,7 @@ span[style="color:#f92672"] {
   background: none;
   color: var(--theme);
   border: none;
+  display: none;
 }
 
 .copy-textarea {
