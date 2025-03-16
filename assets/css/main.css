@@ -131,7 +131,7 @@ header {
   justify-content: space-between;
   width: 100%;
   line-height: 2.5em;
-  padding: 0.4em 0.5em;
+  padding: 0.2em 0.5em;
   border-bottom: 1px solid var(--background-color-dark);
   z-index: 30;
 }
@@ -163,7 +163,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.5em auto;
+  margin: 1em auto;
+  padding-top: 1em;
 }
 
 ul {
@@ -318,6 +319,7 @@ summary {
 nav#TableOfContents {
   background: none;
   padding-left: 1em;
+  z-index: 1;
 }
 
 .toc a {
@@ -327,6 +329,7 @@ nav#TableOfContents {
 
 /* Header */
 .title {
+  margin-left: 0.3em;
   display: inline-flex;
   align-items: center;
   color: var(--theme);
@@ -343,6 +346,7 @@ nav#TableOfContents {
 }
 
 .menu {
+  margin-right: 0.3em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -363,7 +367,6 @@ nav#TableOfContents {
 }
 
 #main-menu a.active {
-  /* color: var(--theme); */
   border-bottom: 2px solid var(--theme);
 }
 
@@ -554,8 +557,8 @@ ul.lst-card {
   }
 }
 
-nav.content + div.content > main > img:first-child {
-  max-height: 300px !important;
+nav.content + div.content > main > img:first-of-type {
+  max-height: 250px !important;
   width: auto;
 }
 
