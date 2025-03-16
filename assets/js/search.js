@@ -71,7 +71,7 @@ function executeQuery(query) {
     results.forEach(function (value, key) {
       let meta = value.item.section + " | ";
       meta = meta + value.item.date ? value.item.date + " | " : "";
-      meta = meta + `<span class="srch-link">${value.item.permalink}</span>`;
+      // meta = meta + `<span class="srch-link">${value.item.permalink}</span>`;
 
       const markedTitle = value.item.title.replace(RegExp(`(${query})`, 'gi'), "<mark>$1</mark>");
       const markedSummary = value.item.summary.replace(RegExp(`(${query})`, 'gi'), "<mark>$1</mark>");

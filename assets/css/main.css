@@ -1003,10 +1003,11 @@ input#search-query {
 
 .srch-meta {
   opacity: 0.5;
+  margin-bottom: 0.3em;
 }
 
 .srch-link {
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
 }
