@@ -16,8 +16,8 @@
     </div>
 
     <!-- Thumbnail -->
-    {{ if .Params.thumbnail }} 
-        <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .LinkTitle }}" class="thumbnail" />
+    {{ if .Params.coverImg }} 
+        <img src="{{ .Params.coverImg | relURL }}" alt="{{ .LinkTitle }}" class="thumbnail" />
     {{ end }}
 </li>
 {{ end }}
