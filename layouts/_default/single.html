@@ -7,7 +7,7 @@
 
 {{/* Cover Image - loading first */}}
 {{ if .Params.coverImg }}
-  {{ $imgData := dict "Page" . "URL" .Params.coverImg "Alt" "Cover Image" "Style" "cover-img" }}
+  {{ $imgData := dict "Page" . "URL" .Params.coverImg "Alt" "Cover Image" "Style" "cover-img" "Loading" "eager" }}
   {{ partial "image-renderer.html" $imgData }}
 {{ end }}
 
