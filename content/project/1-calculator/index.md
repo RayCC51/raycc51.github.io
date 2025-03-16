@@ -9,5 +9,5 @@ showReadingTime = false
 showToC = false
 showComments = false
 externalUrl = "https://raycc51.github.io/Web-Calculator/"
-coverImg = "project/1-calculator/calculator.webp"
+coverImg = "calculator.webp"
 +++
