@@ -1,20 +1,20 @@
-var seachOpnBtn = null;
-var closeBtn = null;
-var searchCntr = null;
-var resultCntr = null;
-var searchBtn = null;
-var searchTxt = null;
-var isSearchOpen = false;
-var isJsonIndexed = false;
-var isResEmpty = true;
-var fuse;
+let seachOpnBtn = null;
+let closeBtn = null;
+let searchCntr = null;
+let resultCntr = null;
+let searchBtn = null;
+let searchTxt = null;
+let isSearchOpen = false;
+let isJsonIndexed = false;
+let isResEmpty = true;
+let fuse;
 
 function fetchJSON(path, callback) {
-  var httpRequest = new XMLHttpRequest();
+  const httpRequest = new XMLHttpRequest();
   httpRequest.onreadystatechange = function () {
     if (httpRequest.readyState === 4) {
       if (httpRequest.status === 200) {
-        var data = JSON.parse(httpRequest.responseText);
+        const data = JSON.parse(httpRequest.responseText);
         if (callback) callback(data);
       }
     }
@@ -24,13 +24,13 @@ function fetchJSON(path, callback) {
 }
 
 function buildIndex() {
-  var baseURL = searchCntr.getAttribute("data-url");
+  let baseURL = searchCntr.getAttribute("data-url");
   baseURL = baseURL.replace(/\/?$/, "/");
   fetchJSON(baseURL + "index.json", function (data) {
-    var options = {
+    const options = {
       shouldSort: true,
       ignoreLocation: true,
-      threshold: 0.3,
+      threshold: 0.2,
       includeMatches: true,
       keys: [
         { name: "title", weight: 0.8 },
@@ -69,15 +69,19 @@ function executeQuery(query) {
   let resultsHtml = "";
   if (results.length >= 1) {
     results.forEach(function (value, key) {
-      var meta = value.item.section + " | ";
+      let meta = value.item.section + " | ";
       meta = meta + value.item.date ? value.item.date + " | " : "";
       meta = meta + `<span class="srch-link">${value.item.permalink}</span>`;
+
+      const markedTitle = value.item.title.replace(RegExp(`(${query})`, 'gi'), "<mark>$1</mark>");
+      const markedSummary = value.item.summary.replace(RegExp(`(${query})`, 'gi'), "<mark>$1</mark>");
+
       resultsHtml =
         resultsHtml +
         `<li><a href="${value.item.permalink}">
-          <p class="srch-title">${value.item.title}</p>
+          <p class="srch-title">${markedTitle}</p>
           <p class="srch-meta">${meta}</p>
-          <p class="srch-smry">${value.item.summary}</p>
+          <p class="srch-smry">${markedSummary}</p>
         </a></li>`;
     });
     isResEmpty = false;
