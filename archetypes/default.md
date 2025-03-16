@@ -11,5 +11,5 @@ draft = false
 showDate = true
 showReadingTime = true
 showToC = true
-showComments = false
+showComments = true
 +++
