@@ -6,6 +6,7 @@ date = 2025-03-03
 # lastmod = 2025-03-11
 tags = ["android", "game", "memo"]
 coverImg = "blog/250303-game-android/icons.webp"
+# coverImg = "icons.webp"
 # externalUrl = "https://www.example.com" # Redirect
 draft = false
 showDate = true
@@ -25,7 +26,7 @@ I roughly sorted them by difficulty. The further down, the harder it gets.
 
 ## 1. [Castle.xyz](https://castle.xyz/) [No code]
 
-![castle.xyz](castle.webp "Castle.xyz")
+![castle.xyz](castle-600.webp "Castle.xyz")
 
 - Play Games: <https://castle.xyz/explore>
 - Tutorial: <https://wiki.castle.xyz/Guides%3ACastle_Academy>
@@ -40,7 +41,7 @@ I roughly sorted them by difficulty. The further down, the harder it gets.
 
 ## 2. [GDevelop](https://gdevelop.io/) [No code]
 
-![gdevelop](gdevelop.webp "GDevelop")
+![gdevelop](gdevelop-600.webp "GDevelop")
 
 
 - Play Games: <https://gd.games/>
@@ -57,7 +58,7 @@ I roughly sorted them by difficulty. The further down, the harder it gets.
 
 ## 3. [microStudio](https://microstudio.dev/) [MicroScript]
 
-![microstudio](microstudio.webp "microStudio")
+![microstudio](microstudio-600.webp "microStudio")
 
 
 - Play Games: <https://microstudio.dev/explore/>
@@ -75,7 +76,7 @@ microStudio is web base game engine. You don't need to install any app. Just cli
 
 ## 4. [Phaser](https://phaser.io/) [JavaScript]
 
-![phaser](phaser.webp "Phaser")
+![phaser](phaser-600.webp "Phaser")
 
 
 - Find Games: <https://phaser.io/news/category/game>
@@ -120,7 +121,7 @@ Or just add single line on your `html`, inside `<head>`
 
 ## 5. [Löve/Love2D](https://www.love2d.org/) [Lua]
 
-![love2d](love.webp "Löve")
+![love2d](love-600.webp "Löve")
 
 
 - Find games: <https://www.love2d.org/wiki/Category:Games>
@@ -170,7 +171,7 @@ Visit <https://schellingb.github.io/LoveWebBuilder/>
 
 ## 6. [Godot](https://godotengine.org/) [GDScript]
 
-![godot](godot.webp "Godot")
+![godot](godot-600.webp "Godot")
 
 - Find games: <https://godotengine.org/showcase/>
 - Tutorial: <https://docs.godotengine.org/en/stable/getting_started/introduction/index.html>
