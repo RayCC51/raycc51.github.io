@@ -330,6 +330,7 @@ nav#TableOfContents {
 .copy-button svg {
   height: 1.2em;
   width: 1.2em;
+  margin-left: 0.5em;
   vertical-align: text-top;
 }
 
@@ -728,6 +729,7 @@ span[style="display:flex; background-color:#3c3d38"]{
 .icon svg {
   width: 1em;
   height: 1em;
+  margin-left: 0.1em;
 }
 
 /* Pagination */
