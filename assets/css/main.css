@@ -42,6 +42,7 @@
   --code-function: darkorange;
   --code-number: darkorchid;
   --code-operator: crimson;
+  --code-comment: gray;
 
   --floating: var(--white);
   --shadow: 0px 0px 5px 5px #0001;
@@ -51,12 +52,14 @@
 
 .dark {
   --color: var(--lightgrey);
-  --background-color: var(--black);
+  --background-color: var(--code-background-dark);
+  /* --background-color: var(--black); */
   --background-color-dark: var(--darkgrey);
   --theme: var(--main-light);
   --theme-light: var(--main);
   --link-color: var(--point);
-  --code-bg: var(--code-background-dark);
+  --code-bg: var(--black);
+  /* --code-bg: var(--code-background-dark); */
   --code-highlight: #334;
 
   --code-keyword: #66d9ef;
@@ -64,6 +67,7 @@
   --code-function: #a6e22e;
   --code-number: #ae81ff;
   --code-operator: #f92672;
+  --code-comment: olivedrab;
 
   --floating: var(--lightgrey);
   --blur-color: rgba(0, 0, 0, 0.5);
@@ -574,29 +578,29 @@ code[data-lang] * {
   background: none !important;
 }
 
-/* Code highlight - Reserved keyword */
+/* Code highlight */
 span[style="color:#66d9ef"] {
   color: var(--code-keyword) !important;
 }
 
-/* Code highlight - String */
 span[style="color:#e6db74"] {
   color: var(--code-string) !important;
 }
 
-/* Code highlight - Function */
 span[style="color:#a6e22e"] {
   color: var(--code-function) !important;
 }
 
-/* Code highlight - Number */
 span[style="color:#ae81ff"] {
   color: var(--code-number) !important;
 }
 
-/* Code highlight - Operator */
 span[style="color:#f92672"] {
   color: var(--code-operator) !important;
+}
+
+span[style="color:#75715e"] {
+  color: var(--code-comment) !important;
 }
 
 /* Code with line highlight */
