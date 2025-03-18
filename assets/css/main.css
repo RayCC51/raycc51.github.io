@@ -312,8 +312,9 @@ nav#TableOfContents {
 
 #main-menu a {
   color: var(--color);
-  margin: auto 0.5em;
+  margin: auto 0.2em;
   text-decoration: none;
+  font-size: 0.9em;
 }
 
 #main-menu a.active {
@@ -779,11 +780,14 @@ span[style="display:flex; background-color:#3c3d38"]{
 }
 
 .taxny-card {
-  /* flex: 1 0 200px; */
   margin: 10px;
-  background-color: var(--background-color-dark);
-  padding: 10px;
+  box-shadow: var(--shadow);
+  padding: 5px;
   border-radius: var(--radius);
+}
+
+.taxny-card a{
+  text-decoration: none;
 }
 
 .comment {
