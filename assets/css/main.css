@@ -469,8 +469,8 @@ html:not(.dark) #sun {
   margin: 0 0.2em;
 }
 
-.description {
-  margin-left: 0.5em;
+.description{
+  opacity: 60%;
 }
 
 ul.pagination,
@@ -499,6 +499,7 @@ ul.lst-card {
   .lst-card > li {
     flex-direction: column;
     justify-content: flex-start;
+    padding: 0;
   }
 
   .lst-card li div{
@@ -509,6 +510,7 @@ ul.lst-card {
   .lst-card li img{
     order: 1;
     height: 150px !important;
+    padding-top: 1em;
   }
 }
 
