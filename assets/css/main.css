@@ -490,9 +490,11 @@ ul.lst-card {
 }
 
 .lst-card .thumbnail {
+  max-height: 130px;
   width: auto;
-  height: 130px;
+  max-width: 300px;
   margin: 0;
+  object-fit: contain;
 }
 
 @media (max-width: 600px) {
@@ -514,6 +516,7 @@ ul.lst-card {
   }
 }
 
+/* Cover Image */
 nav.content + div.content > main > img:first-of-type {
   max-height: 250px !important;
   width: auto;
