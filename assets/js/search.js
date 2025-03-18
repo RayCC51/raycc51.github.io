@@ -128,7 +128,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 // Keyboard control
 document.addEventListener("keydown", function (event) {
-  if (event.key == "/") {
+  if (event.key == "/" && !isSearchOpen) {
     event.preventDefault();
     openSearch();
   }
