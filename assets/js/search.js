@@ -60,6 +60,7 @@ function closeSearch() {
   if (isSearchOpen) {
     searchCntr.style.display = "none";
     document.body.style.overflow = "";
+    searchTxt.value = "";
     isSearchOpen = false;
   }
 }
