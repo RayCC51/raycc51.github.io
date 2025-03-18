@@ -1,6 +1,5 @@
 +++
 title = 'To top floating button in JS'
-description = "Using pure js to create floating button"
 summary = "Using pure js to create floating button"
 date = 2025-03-18
 # lastmod = 2025-03-11

@@ -1,6 +1,5 @@
 +++
 title = 'Dart 3.6 cheat sheet'
-description = "Studying dart language"
 summary = "Studying dart language"
 date = 2025-02-25
 # lastmod = 2025-03-11

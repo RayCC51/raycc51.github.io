@@ -1,11 +1,10 @@
 +++
 title = "Sample blog post"
-description = "This is description"
 summary = "This is summary"
 date = 2025-03-11
 lastmod = 2025-03-16
 tags = ["sample", "hugo", "kayal"]
-coverImg = "https://nasa3d.arc.nasa.gov/shared_assets/thumbnails/as11-44-6665/428x321"
+coverImg = "moon.jpg"
 # externalUrl = "https://www.example.com" # Redirect
 draft = false
 showToC = true
@@ -15,12 +14,11 @@ showComments = true
 ```toml
 +++
 title = 'Sample blog post'
-description = "This is description"
 summary = "This is summary"
 date = 2025-03-11
 lastmod = 2025-03-16
 tags = ["sample", "hugo", "kayal"]
-coverImg = "https://nasa3d.arc.nasa.gov/shared_assets/thumbnails/as11-44-6665/428x321"
+coverImg = "moon.jpg"
 # externalUrl = "https://www.example.com" # Redirect
 draft = false
 showDate = true
@@ -30,6 +28,19 @@ showComments = false
 ```
 
 View full source in <a href="https://github.com/RayCC51/raycc51.github.io">Github</a>
+
+---
+
+## Directory
+
+```
+content/
+├─ blog/  <- Blog menu
+│  ├─ 250311-sample/
+│  │  ├─ index.md  <- Current post
+│  │  ├─ moon.jpg  <- Current post's asset
+├─ _index.html  <- Home page 
+```
 
 ---
 

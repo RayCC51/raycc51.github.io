@@ -1,6 +1,5 @@
 +++
 title = 'Markdown cheat sheet'
-description = "Summary of markdown"
 summary = "Summary of markdown"
 date = 2025-03-03
 # lastmod = 2025-03-11

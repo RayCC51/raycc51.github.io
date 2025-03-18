@@ -1,6 +1,5 @@
 +++
 title = 'Python cheat sheet'
-description = "Studying python language"
 summary = "Studying python language"
 date = 2025-03-03
 # lastmod = 2025-03-11

@@ -1,6 +1,5 @@
 +++
 title = 'Scroll indicator in JS'
-description = "Using pure js to create scroll indicator"
 summary = "Using pure js to create scroll indicator"
 date = 2025-03-18
 # lastmod = 2025-03-11

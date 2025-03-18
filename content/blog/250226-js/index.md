@@ -1,6 +1,5 @@
 +++
 title = 'JavaScript cheat sheet'
-description = "Studying js language"
 summary = "Studying js language"
 date = 2025-02-26
 # lastmod = 2025-03-11

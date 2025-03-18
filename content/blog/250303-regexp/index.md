@@ -1,6 +1,5 @@
 +++
 title = 'RegExp cheat sheet'
-description = "Regular expression summary"
 summary = "Regular expression summary"
 date = 2025-03-03
 # lastmod = 2025-03-11

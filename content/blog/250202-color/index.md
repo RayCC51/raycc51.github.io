@@ -1,6 +1,5 @@
 +++
 title = 'My Color Palette'
-description = "Color palette"
 summary = "Color palette "
 date = 2025-02-20
 lastmod = 2025-03-18
