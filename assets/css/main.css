@@ -1010,6 +1010,10 @@ input#search-query {
   color: inherit;
 }
 
+#search-results p{
+  margin: 0 1em;
+}
+
 .srch-title {
   font-size: 1.2em;
   font-weight: bold;
