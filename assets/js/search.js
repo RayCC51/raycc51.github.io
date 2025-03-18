@@ -51,6 +51,7 @@ function openSearch() {
   if (!isSearchOpen) {
     searchCntr.style.display = "flex";
     document.body.style.overflow = "hidden";
+    resultCntr.innerHTML = "";
     isSearchOpen = true;
     searchTxt.focus();
   }
