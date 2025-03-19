@@ -10,7 +10,7 @@ description = "Ray CC's blog"
 # [Optional] Copyright owner name.
 copyright = "RayCC"
 # Whether to optimize images per view port.
-optimizeImg = true
+optimizeImg = false
 # Whether to enable copy button in code blocks.
 enableCodeCopy = true
 # Show the icon that switches between dark and light themes when clicked.
