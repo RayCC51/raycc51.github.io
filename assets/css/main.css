@@ -620,7 +620,10 @@ span[style="color:#75715e"] {
 span[style="background-color:#3c3d38"]{
   background: none !important;
 }
-span[style="display:flex; background-color:#3c3d38"]{
+
+/* spaced for localhost, no spaced for deploy */
+span[style="display:flex; background-color:#3c3d38"],
+span[style="display:flex;background-color:#3c3d38"]{
   background-color: var(--code-highlight) !important;
 }
 
@@ -1000,7 +1003,7 @@ input#search-query {
   display: block;
   position: relative;
   margin: 0.75em;
-  padding: 0.75em;
+  padding: 0.75em 0;
   background-color: var(--background-color);
   box-shadow: var(--shadow);
   color: var(--color);
@@ -1017,6 +1020,10 @@ input#search-query {
   color: inherit;
 }
 
+#search-results p:first-child{
+  margin-left: 0.7em;
+}
+
 #search-results p{
   margin: 0 1em;
 }
@@ -1029,7 +1036,8 @@ input#search-query {
 
 .srch-meta {
   opacity: 0.5;
-  margin-bottom: 0.3em;
+  padding-top: 0.3em !important;
+  padding-bottom: 0.2em !important;
 }
 
 .srch-link {
