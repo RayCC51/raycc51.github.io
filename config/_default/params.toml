@@ -110,16 +110,7 @@ showRSS = false
 
 # Social links
 # TODO: Social
-[[social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/raycc51"
 
-[[social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
-#
 # [[social]]
 # name = "Email"
 # icon = "email"
@@ -129,3 +120,18 @@ url = "/index.xml"
 # name = "Twitter / X"
 # icon = "x-twitter"
 # url = "https://x.com/sample"
+
+[[social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/raycc51"
+
+[[social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[[social]]
+name = "dotpict"
+icon = "dotpict"
+url = "https://dotpict.net/users/3750727"
