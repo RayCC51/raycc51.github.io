@@ -1,7 +1,1 @@
-# Hugo blog
-
-with [Kayal theme](https://mnjm.github.io/kayal/)
-
-## Run in local server
-
-`hugo server -D`
+Hugo blog with [Kayal](https://mnjm.github.io/kayal/) theme.
