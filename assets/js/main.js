@@ -3,6 +3,7 @@
 //
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 const myBar = document.getElementById("myBar");
+
 document.addEventListener("DOMContentLoaded", function () {
   window.onscroll = function () {
     if (
@@ -35,9 +36,9 @@ function scrollIndicator() {
 //
 // Copy Code
 //
-const copyText =
+const copyIcon =
   '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M288 448L64 448l0-224 64 0 0-64-64 0c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-64-64 0 0 64zm-64-96l224 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L224 0c-35.3 0-64 28.7-64 64l0 224c0 35.3 28.7 64 64 64z"/></svg>';
-const copiedText =
+const copiedIcon =
   'Copied! <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>';
 
 document.querySelectorAll(".copy-button").forEach((item) =>
@@ -53,9 +54,9 @@ document.querySelectorAll(".copy-button").forEach((item) =>
 
       navigator.clipboard.writeText(code);
 
-      item.innerHTML = copiedText;
+      item.innerHTML = copiedIcon;
       setTimeout(() => {
-        item.innerHTML = copyText;
+        item.innerHTML = copyIcon;
       }, 500);
     }
   })
@@ -78,22 +79,19 @@ function toggleTheme() {
   }
 }
 
-window.addEventListener("DOMContentLoaded", (event) => {
-  const switcher = document.getElementById("theme-switcher");
-  if (switcher) {
-    switcher.addEventListener("click", () => {
-      toggleTheme();
-    });
-  }
+const switcher = document.getElementById("theme-switcher");
+
+if (switcher) {
+    switcher.addEventListener("click", toggleTheme);
+}
 
   // listener to check for user's os preference changes
-  window
-    .matchMedia("(prefers-color-scheme: dark)")
-    .addEventListener("change", (event) => {
+const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+mediaQuery.addEventListener("change", (event) => {
       if (event.matches && sessionStorage.getItem("t") === "l") {
         toggleTheme();
-      }
-    });
+   }
 });
 
 // Giscus Theme
