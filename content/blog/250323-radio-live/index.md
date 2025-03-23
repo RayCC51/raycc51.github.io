@@ -1,5 +1,5 @@
 +++
-title = 'Youtube 24 radio(SLOW)'
+title = 'Youtube 24 Radio'
 summary = "Collection of music radio"
 date = 2025-03-23
 # lastmod = 2025-03-16
@@ -15,70 +15,68 @@ showComments = true
 
 ## Asian
 
-{{< youtube Na0w3Mz46GA >}}
+[Na0w3Mz46GA](https://yout.be/Na0w3Mz46GA)
 
 ## Classic
 
-{{< youtube bwZUs26HZI8 >}}
+[bwZUs26HZI8](https://yout.be/bwZUs26HZI8)
 
 ## Dance
 
-{{< youtube fpwx3tqvRg4 >}}
+[fpwx3tqvRg4](https://yout.be/fpwx3tqvRg4)
 
-{{< youtube hXyRD5vbKpo >}}
+[hXyRD5vbKpo](https://yout.be/hXyRD5vbKpo)
 
 ## Disco
 
-{{< youtube 3kgNy-kvFak >}}
+[3kgNy-kvFak](https://yout.be/3kgNy-kvFak)
 
 ## House
 
-{{< youtube sgEJ4sOwboM >}}
+[sgEJ4sOwboM](https://yout.be/sgEJ4sOwboM)
 
-{{< youtube IkmLXvBfVv0 >}}
+[IkmLXvBfVv0](https://yout.be/IkmLXvBfVv0)
 
-{{< youtube _W33t0d1y9M >}}
+[_W33t0d1y9M](https://yout.be/_W33t0d1y9M)
 
 ## Hiphop
 
-{{< youtube jfKfPfyJRdk >}}
+[jfKfPfyJRdk](https://yout.be/jfKfPfyJRdk)
 
-{{< youtube 5yx6BWlEVcY >}}
+[5yx6BWlEVcY](https://yout.be/5yx6BWlEVcY)
 
 ## Jazz
 
-{{< youtube Dx5qFachd3A >}}
+[Dx5qFachd3A](https://yout.be/Dx5qFachd3A)
 
-{{< youtube HuFYqnbVbzY >}}
+[HuFYqnbVbzY](https://yout.be/HuFYqnbVbzY)
 
-{{< youtube SF7W4UeOHUk >}}
+[SF7W4UeOHUk](https://yout.be/SF7W4UeOHUk)
 
-{{< youtube 3XbEUv_MCj0 >}}
+[3XbEUv_MCj0](https://yout.be/3XbEUv_MCj0)
 
 ## Pop
 
-{{< youtube 8M0AvPvPg0A >}}
+[8M0AvPvPg0A](https://yout.be/8M0AvPvPg0A)
 
-{{< youtube WnVxsr5IzUY >}}
+[WnVxsr5IzUY](https://yout.be/WnVxsr5IzUY)
 
-{{< youtube KVAocy0gnOo >}}
+[KVAocy0gnOo](https://yout.be/KVAocy0gnOo)
 
-{{< youtube TtNXER1Cgzo >}}
+[TtNXER1Cgzo](https://yout.be/TtNXER1Cgzo)
 
-{{< youtube uNd5kvrGHjk >}}
+[uNd5kvrGHjk](https://yout.be/uNd5kvrGHjk)
 
 ## Rock
 
-{{< youtube Nt27aBceerI >}}
+[Nt27aBceerI](https://yout.be/Nt27aBceerI)
 
 ## Soul
 
-{{< youtube qr9JkLsVLHc >}}
+[qr9JkLsVLHc](https://yout.be/qr9JkLsVLHc)
 
-{{< youtube Xa8Ou68uTHM >}}
+[Xa8Ou68uTHM](https://yout.be/Xa8Ou68uTHM)
 
 ## Synthwave
 
-{{< youtube 4xDzrJKXOOY  >}}
-
-
+[4xDzrJKXOOY](https://yout.be/4xDzrJKXOOY )
