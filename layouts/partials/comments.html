@@ -41,15 +41,13 @@
   giscusScript.async = true;
 
   const theme =
-    (
-      sessionStorage.getItem("t") === "d" ||
-      (sessionStorage.getItem("t") !== "l" &&
-        window.matchMedia &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    )
+    sessionStorage.getItem("t") === "d" ||
+    (sessionStorage.getItem("t") !== "l" &&
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
       ? "dark_protanopia"
       : "light_protanopia";
   giscusScript.setAttribute("data-theme", theme);
 
-  document.querySelector(".content main").appendChild(giscusScript);
+  document.querySelector("main").appendChild(giscusScript);
 </script>

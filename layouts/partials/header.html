@@ -1,4 +1,4 @@
-<header class="header-cntr">
+<header>
     {{ if .Site.Params.logo }}
     <a class="title" href="{{ "" | relLangURL}}">
       {{ $imgData := dict "Page" . "URL" .Site.Params.logo "Alt" "Site Logo" "Size" "64x64" }}
@@ -8,7 +8,7 @@
     <a class="title" href="{{ "" | relLangURL}}">
     <span>{{ .Site.Title | emojify }}</span>
     </a>
-  <div class="menu">
+  <nav>
   <div id="main-menu" class="mm-normal">
     <ul>
     {{ range .Site.Menus.main }}
@@ -34,5 +34,5 @@
     </button>
     {{ end }}
     </div>
-  </div>
+  </nav>
 </header>

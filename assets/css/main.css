@@ -141,7 +141,7 @@ header {
   z-index: 30;
 }
 
-nav {
+#header-container {
   position: sticky;
   top: 0;
   background-color: var(--background-color);
@@ -259,7 +259,7 @@ summary {
 }
 
 /* Table of Contents */
-nav#TableOfContents {
+#TableOfContents {
   background: none;
   padding-left: 1em;
   z-index: 1;
@@ -288,7 +288,7 @@ nav#TableOfContents {
   height: auto;
 }
 
-.menu {
+header nav {
   margin-right: 0.3em;
   display: flex;
   align-items: center;
@@ -512,7 +512,7 @@ ul.lst-card {
 }
 
 /* Cover Image */
-nav.content + div.content > main > img:first-of-type {
+main > img:first-of-type {
   max-height: 250px !important;
   width: auto;
 }
@@ -870,7 +870,7 @@ h6:hover .anchor {
   height: auto;
 }
 
-.content main .pg-title {
+main .pg-title {
   padding: 0;
   margin-bottom: 0.5em;
 }

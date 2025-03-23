@@ -11,7 +11,7 @@ enable = true
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
 
-# Blockquote class
-[goldmark.parser]
-    [goldmark.parser.attribute]
-        block = true
+# Table of contents
+[tableOfContents]
+    endLevel = 4
+    startLevel = 2

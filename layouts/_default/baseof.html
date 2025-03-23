@@ -5,16 +5,14 @@
 >
   {{ partial "head.html" . }}
   <body>
-    <nav class="content">
+    <div id="header-container">
       {{ partial "header.html" . }}
       <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
       </div>
-    </nav>
-    <div class="content">
-      <main>{{ block "main" . }}{{ end }}</main>
-      {{ partial "footer.html" . }}
     </div>
+    <main>{{ block "main" . }}{{ end }}</main>
+    {{ partial "footer.html" . }}
     <button id="scrollToTopBtn" title="Go to top">
       {{ partial "icon.html" "chevron-up" }}
     </button>
