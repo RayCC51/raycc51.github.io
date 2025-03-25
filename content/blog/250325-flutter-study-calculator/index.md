@@ -19,7 +19,7 @@ I made some modifications here.
 
 ### pubspec.yaml
 
-```yaml
+```yaml {linenos=true}
 dependencies:
   flutter:
     sdk: flutter
@@ -28,7 +28,7 @@ dependencies:
 
 ### lib/main.dart
 
-```dart
+```dart {linenos=true}
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
