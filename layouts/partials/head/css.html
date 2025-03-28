@@ -1,4 +1,4 @@
-{{ $styles := slice "css/main.css"}} {{ if eq hugo.Environment "development" }}
+{{ $styles := slice "css/style.css"}} {{ if eq hugo.Environment "development" }}
 {{ range $styles }} {{ with resources.Get . }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" />
 {{ end }} {{ end }} {{ else }} {{ $cssConcatenated := slice }} {{ range $index,

@@ -1,4 +1,4 @@
-{{ $scripts := slice "js/main.js" }} {{ if .Site.Params.enableSearch | default
+{{ $scripts := slice "js/script.js" }} {{ if .Site.Params.enableSearch | default
 false }} {{ $scripts = $scripts | append "js/search.js" }} {{ end }} {{ range
 $scripts }} {{ with resources.Get . }} {{ with . | js.Build }} {{- if eq
 hugo.Environment "development" }}
