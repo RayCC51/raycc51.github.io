@@ -511,6 +511,16 @@ ul.lst-card {
   }
 }
 
+/* Tags */
+
+.lst-count::before {
+  content: "(";
+}
+
+.lst-count::after {
+  content: ")";
+}
+
 /* Cover Image */
 main > img:first-of-type {
   max-height: 250px !important;
@@ -784,7 +794,7 @@ span[style="display:flex;background-color:#3c3d38"] {
   border: initial;
 }
 
-.taxny-card-container {
+#taxny-card-container {
   display: flex;
   flex-wrap: wrap;
 }

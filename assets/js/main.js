@@ -1,4 +1,24 @@
 //
+// Sort tags by counts
+//
+// Working on card list view only.
+// If you want sort simple list view,
+// ["#taxny-card-container"] -> ["#lst"]
+// [".taxny-card"] -> ["li"]
+//
+const tagList = document.querySelector("#taxny-card-container");
+if (tagList) {
+  const itemArr = Array.from(tagList.querySelectorAll(".taxny-card"));
+  itemArr.sort(
+    (a, b) =>
+      Number(b.querySelector("div span").innerText) -
+      Number(a.querySelector("div span").innerText)
+  );
+  tagList.innerHTML = "";
+  itemArr.forEach((item) => tagList.appendChild(item));
+}
+
+//
 // To top floating button
 //
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
@@ -64,6 +84,7 @@ document.querySelectorAll(".copy-button").forEach((item) =>
 
 //
 // Theme
+//
 // key: "t" : theme
 // value: "l" or "d" : light or dark
 //
@@ -82,16 +103,16 @@ function toggleTheme() {
 const switcher = document.getElementById("theme-switcher");
 
 if (switcher) {
-    switcher.addEventListener("click", toggleTheme);
+  switcher.addEventListener("click", toggleTheme);
 }
 
-  // listener to check for user's os preference changes
+// listener to check for user's os preference changes
 const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
 mediaQuery.addEventListener("change", (event) => {
-      if (event.matches && sessionStorage.getItem("t") === "l") {
-        toggleTheme();
-   }
+  if (event.matches && sessionStorage.getItem("t") === "l") {
+    toggleTheme();
+  }
 });
 
 // Giscus Theme
