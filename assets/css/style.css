@@ -565,10 +565,6 @@ code {
   padding: 0.5em;
 }
 
-.highlight {
-  margin: 0.5em 0;
-}
-
 .highlight > div,
 .highlight > pre {
   overflow-x: auto;
@@ -631,6 +627,7 @@ span[style="display:flex;background-color:#3c3d38"] {
 /* Code Copy button */
 .code-container {
   position: relative;
+  margin: 0.5em 0;
 }
 
 .code-container:hover .copy-button {

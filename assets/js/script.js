@@ -66,10 +66,13 @@ document.querySelectorAll(".copy-button").forEach((item) =>
     if ("clipboard" in navigator) {
       let code;
       const codeBlock = item.previousElementSibling;
-      if (codeBlock.children[0].tagName === "PRE") {
+      if (
+        codeBlock.tagName === "PRE" ||
+        codeBlock.children[0].tagName === "PRE"
+      ) {
         code = codeBlock.textContent;
       } else {
-        code = codeBlock.querySelector("td:last-child").textContent;
+        code = codeBlock.querySelector("td:last-child code").textContent;
       }
 
       navigator.clipboard.writeText(code);
