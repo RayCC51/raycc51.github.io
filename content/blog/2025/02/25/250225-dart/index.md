@@ -1063,7 +1063,9 @@ Set<String> opSetIf = {
 };
 
 List<int> opListFor = [0, for (int i = 1; i < 5; i++) i]; 
+List<int> opListGenerate = List.generate(5, (index) => index);
 // [0,1,2,3,4]
+
 ```
 
 
