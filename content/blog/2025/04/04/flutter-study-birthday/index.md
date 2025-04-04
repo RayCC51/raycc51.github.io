@@ -17,6 +17,24 @@ Source code reference: <https://www.geeksforgeeks.org/flutter-build-birthday-rem
 
 I made some modifications here.
 
+### pubspec.yaml
+
+```yaml {linenos=true}
+dependencies:
+  flutter:
+    sdk: flutter
+  table_calendar: ^3.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+```
+
+### assets/balloons.png
+
+Add image.
+
 ### lib/main.dart
 
 ```dart {linenos=true}
