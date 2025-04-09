@@ -788,13 +788,17 @@ span[style="display:flex;background-color:#3c3d38"] {
 
 .taxny-card {
   margin: 10px;
-  box-shadow: var(--shadow);
-  padding: 5px;
-  border-radius: var(--radius);
+  /* box-shadow: var(--shadow); */
+  /* padding: 5px; */
+  /* border-radius: var(--radius); */
 }
 
 .taxny-card a {
   text-decoration: none;
+}
+
+.taxny-card span {
+  display: none;
 }
 
 .comment {

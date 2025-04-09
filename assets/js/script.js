@@ -6,16 +6,31 @@
 // ["#taxny-card-container"] -> ["#lst"]
 // [".taxny-card"] -> ["li"]
 //
+// const tagList = document.querySelector("#taxny-card-container");
+// if (tagList) {
+//   const itemArr = Array.from(tagList.querySelectorAll(".taxny-card"));
+//   itemArr.sort(
+//     (a, b) =>
+//       Number(b.querySelector("div span").innerText) -
+//       Number(a.querySelector("div span").innerText)
+//   );
+//   tagList.innerHTML = "";
+//   itemArr.forEach((item) => tagList.appendChild(item));
+// }
+
+//
+// Tag size by tag count
+//
 const tagList = document.querySelector("#taxny-card-container");
 if (tagList) {
   const itemArr = Array.from(tagList.querySelectorAll(".taxny-card"));
-  itemArr.sort(
-    (a, b) =>
-      Number(b.querySelector("div span").innerText) -
-      Number(a.querySelector("div span").innerText)
+  const maxNumber = Math.max(
+    ...itemArr.map((item) => item.querySelector("div span").innerText)
   );
-  tagList.innerHTML = "";
-  itemArr.forEach((item) => tagList.appendChild(item));
+  itemArr.forEach((item) => {
+    item.querySelector("div a").style.fontSize =
+      0.8 + item.querySelector("div span").innerText / maxNumber + "em";
+  });
 }
 
 //
