@@ -94,6 +94,11 @@
   background: var(--theme);
   width: 0%;
 }
+
+iframe {
+  max-width: 95%
+}
+
 /* end custom js css */
 
 * {
